@@ -1,25 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Primer Documento</title>
-</head>
-<body>
-    <header>
-        <h1>Mi primera pagina</h1>
-    </header>
-    <main>
-        <article>
-            <h2>Juan Carlos</h2>
-            <p>Pruebas que realizo</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor numquam cumque corrupti odio itaque, iste voluptatum voluptates quisquam culpa illo ex? Praesentium impedit dolorum quas quod voluptates, saepe dolorem placeat.</p>
-        </article>
-    </main>
-    <footer>
-        <p>@juancarlosenrique @mabel</p>
-    </footer>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Dude</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        background: rgb(34,153,195);
+        background: linear-gradient(0deg, rgba(34,153,195,1) 0%, rgba(39,181,17,1) 100%);
+        height: 100vh;
+        text-align: center;
+        
+      }
+
+      img {
+        height: 140px;
+        width: 140px;
+        border-radius: 100px;
+        position: absolute;
+        left: 50%;
+        margin-left: -70px;
+        top: -50px;
+       
+      }
+      .border-img{
+        height: 160px;
+        width: 160px;
+        border-radius: 100px;
+        position: absolute;
+        left: 50%;
+        margin-left: -80px;
+        top: -60px;
+        background: rgb(39,181,17,1);
+        background: linear-gradient(0deg,#25AA51 0%, rgba(39,181,17,1) 100%);
+      }
+
+      article {
+        display: inline-block;
+        background-color: #F3F0E8;
+        border-radius: 7px;
+        position: relative;
+        margin-top: 100px;
+        padding: 1;
+        box-shadow: 1px 1px 5px grey;
+      }
+
+      
+      li {
+        list-style: none;
+      }
+
+      .btn {
+        color: white;
+        display: inline-block;
+        background-color: #00c398;
+        box-shadow: 0px 4px #3a8b74;
+        width: 250px;
+        height: 50px;
+        border-radius: 10px;
+        line-height: 50px;
+        text-decoration: none;
+      }
+      .info {
+        margin-top: 120px;
+        color:gray;
+      
+      }
+      
+      .info h3{
+        color: #2FAF8F;
+        font-size: 25px;
+        
+      }
+
+      .info p {
+        font-size: 15px;
+      }
+
+      .info-add {
+        margin-top: 25px;
+
+      }
+
+      .info-add ul {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .btn {
+        margin: 20px;
+      }
+      
+      .info-add ul li a {
+        font-size: 25px;
+        color: #997944;
+      }
+      .info-add small {
+        font-size: 15px;
+        color: #575551;
+      }
+
+      .info small {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .info a{
+        color:#00C398;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <article>
+      
+      <div class="border-img"></div>
+      <figure>
+          <img src="https://picsum.photos/350/390" alt="" />
+        </figure>
+      <div class="info">
+        <h3>The Dude</h3>
+        <small>@TheDudeAbides</small>
+        <p>
+          Lorem ipsum dolor sit amet consectetur <br />
+          adipisicing elit. Consectetur
+        </p>
+        <br>
+        <small><i class="fas fa-street-view"></i>Venice. CA </small>
+        <br>
+        <br>
+        <a href="">lebowskifest.com</a>
+      </div>
+      <div class="info-add">
+        <ul>
+          <li>
+            <a href=""><i class="far fa-comments"></i></a>
+            <br />
+            <small>426 Tweets</small>
+          </li>
+          <li>
+            <a href=""><i class="far fa-address-card"></i></a>
+            <br />
+            <small>590 Following</small>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-users"></i></a>
+            <br />
+            <small>782 Followers</small>
+          </li>
+        </ul>
+      </div>
+      <a class="btn" href="">FOLLOW ME</a>
+    </article>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/43f3cc2ec8.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
